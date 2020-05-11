@@ -1,0 +1,76 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Defining a variable
+$orange: #FFFDE1;
+$white: #FFFFFF;
+$grey: #DDDDDD;
+$blue: #3379B8;
+
+
+body {
+  background: $white; // Using this variable
+}
+
+.container {
+  background: $white;
+  width: 60%;
+  padding: 16px;
+  margin: 16px;
+  h1 {
+    font-size: 50px;
+    padding-left: 16px;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+}
+
+.divide {
+  display: flex;
+}
+
+.grey {
+  background: $grey;
+  width: 4px;
+  margin-bottom: 16px;
+}
+
+.question {
+  width: 90%;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.answer {
+  background: $orange;
+  width: 90%;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+a {
+  color: $grey;
+  padding-left: 16px;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+
+input {
+  border-radius: 4px 0 0 4px;
+  border: 1px solid $grey;
+  height: 24px;
+  width: 200px;
+}
+
+.btn {
+  color: $white;
+  background: $blue;
+  margin-left: 0;
+  border-radius: 0 4px 4px 0;
+  height: 28px;
+  width: 60px;
+}
